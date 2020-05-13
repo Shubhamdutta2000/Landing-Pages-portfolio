@@ -1,0 +1,91 @@
+.navbar-custom{
+    position: relative;
+    top: inherit;
+
+
+}
+
+.navbar a{
+    color: white;
+    font-weight: bold;
+}
+.navbar a:hover{
+    background: white;
+    color: rgb(3, 3, 59);
+}
+
+    
+header{
+    height: 450px;
+    color: white;
+    
+}
+header h1{
+    font-size: 55px;
+}
+header p{
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(212, 212, 212);
+}
+.bhau{
+    padding: 60px 0;
+}
+.text-bold-a{
+    font-size: 15px;
+    margin: 20px 0;
+    border-top: 1px solid gray;
+   
+    padding: 5px 0;
+    
+}
+.text-bold-b{
+    font-size: 15px;
+   
+   
+    border-bottom: 1px solid gray;
+    
+    padding-bottom: 5px;
+    background: #f1f1f1;
+}
+footer{
+    width: 100%;
+    padding: 20px 0;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.about-para{
+ font-size: 18px;
+ padding: 5px;
+ padding-bottom: 10px;
+ margin: 3px;
+ 
+}
+.form-g{
+    background-color: white;
+    width:650px;
+    padding: 20px;
+    font-size: 20px;
+   margin: 25 0px;
+   box-sizing: border-box;
+   box-shadow: 5px 5px 5px 1px  black;
+   border: none;
+}
+form{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 110px;
+    
+    box-shadow: 1px 1px 5px 1px  black;
+    
+}
+input[ type='text']:hover,input[ type='email']:hover , input[ type='number']:hover,textarea:hover{
+    border-color: rgb(175, 175, 224);
+    }
+
+    input[ type='submit']:hover,input[ type='reset']:hover{
+        background-color: red;
+        color: white;
+    }    
