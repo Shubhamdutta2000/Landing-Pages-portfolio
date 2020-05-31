@@ -1,2 +1,2 @@
 # bulder-portfolio
-A bulder's portfolio project
+A standard bulder's portfolio project
