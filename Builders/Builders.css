@@ -1,8 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .navbar-custom{
     position: relative;
     top: inherit;
 
 
+}
+hr{
+    height: 2px;
+    color: solid black;
 }
 
 .navbar a{
@@ -16,36 +24,39 @@
 
     
 header{
+    
     height: 450px;
     color: white;
     
 }
 header h1{
+    padding-top: 50px;
     font-size: 55px;
 }
 header p{
     font-size: 20px;
     text-shadow: 2px 2px 5px rgb(212, 212, 212);
 }
-.bhau{
-    padding: 60px 0;
-}
+
 .text-bold-a{
-    font-size: 15px;
-    margin: 20px 0;
-    border-top: 1px solid gray;
-   
-    padding: 5px 0;
-    
+    font-size: 17px;
+    padding-right: 0px;
+    background: #f8f4f4;
+   position: relative;
+   border: 1px solid  #c0bfbf; 
+   box-shadow: 0.5px 1px 2px 2px grey;
+   margin-bottom: 50px;
+   margin-top: 50px;
 }
 .text-bold-b{
-    font-size: 15px;
+    font-size: 17px;
+    position: relative;
    
-   
-    border-bottom: 1px solid gray;
-    
-    padding-bottom: 5px;
-    background: #f1f1f1;
+    background: #f8f4f4;
+    border: 1px solid  #c0bfbf; 
+   box-shadow: 0.5px 1px 2px 2px grey;
+   margin-bottom: 50px;
+   margin-top: 50px;
 }
 footer{
     width: 100%;
@@ -61,23 +72,12 @@ footer{
  margin: 3px;
  
 }
-.form-g{
-    background-color: white;
-    width:650px;
-    padding: 20px;
-    font-size: 20px;
-   margin: 25 0px;
-   box-sizing: border-box;
-   box-shadow: 5px 5px 5px 1px  black;
-   border: none;
-}
+
 form{
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
     padding-bottom: 10px;
-    margin: 110px;
-    
     box-shadow: 1px 1px 5px 1px  black;
     
 }
@@ -86,6 +86,71 @@ input[ type='text']:hover,input[ type='email']:hover , input[ type='number']:hov
     }
 
     input[ type='submit']:hover,input[ type='reset']:hover{
-        background-color: red;
+        background-color: rgb(211, 30, 30);
+        border: 1px solid red;
+        font-size: 15px;
+        position: sticky;
         color: white;
-    }    
+    } 
+    
+ .brand-custom{
+     float: left;
+ }   
+
+#mobile{
+    margin-top: 5px;
+   
+    float: right;
+    cursor: pointer;    
+    font-size: 20px;
+    display: none;
+}
+.navbar-custom{
+    display: block;
+}
+.button{
+    border: 1px solid black;
+    background-color: rgb(129, 6, 6);
+    color: #f8f4f4;
+    font-size: 15px;
+    width: 100%;
+    height: 40%;
+}
+.box{
+    width: 100%;
+    height: 25px;
+}
+#comm{
+    width: 100%;
+    height: 55px;
+}
+
+   /* now for responsive view */
+
+    @media only screen and (max-width: 800px) {
+        #mobile{
+            display: block;
+            position: relative;
+            
+        }
+        
+        .navber-custom{
+            display: none;
+            
+            height: auto;
+            width: 109%;
+            position: absolute;
+            background-color: rgb(49, 49, 49);
+            overflow-y: inherit;
+        }
+        
+        .text-bold-a {
+            
+            margin-top: 20px;
+
+        }
+        .text-bold-b{
+            margin-bottom: 20px;
+        }
+    
+    }
