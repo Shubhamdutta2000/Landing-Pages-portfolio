@@ -1,0 +1,160 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Ubuntu', sans-serif;
+
+}
+
+#title{
+     background-color: #ff4c68;
+     height: 550px;
+
+}
+
+.navbar{
+     padding-bottom: 50px;
+}
+
+.navbar-brand{
+     font-size: 30px;
+     
+}
+
+.nav-link{
+     margin: 15px;
+}
+
+#head{
+     padding-top: 40px;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: bold;
+     font-size: 3.2rem;
+     line-height: 1.5;
+     color: white;
+}
+button{
+     font-size: 15px;
+}
+
+#forimg img{
+     padding-top: 45px;
+     height: 575px;
+     width: 300px;
+     transform: rotate(25deg);
+     align-items: center;
+     text-align: center;
+     
+}
+
+#features{
+   
+     padding: 7% 15%;
+     align-items: center;
+     text-align: center;
+    position: relative;
+    z-index: 1;
+     background-color: white;
+}
+
+#features p{
+     color: rgba(41, 39, 39, 0.507);
+     font-size:12px;
+}
+
+#features h3{
+     font-weight:bold;
+}
+
+#features i {
+     margin-bottom:3px;
+     color:#ff4c68;
+
+}
+
+#testimonials{
+     
+     color:white;
+     background-color:#ff4c68;
+     align-items: center;
+     text-align: center;
+}
+
+h2{
+     font-size: 3rem;
+     line-height: 1.5;
+}
+
+.testimonials{
+     width: 10%;
+     border-radius: 100%;
+     margin: 20px;
+
+}
+#press{
+     background-color:#ff4c68;
+     padding-bottom: 30px;
+     align-items: center;
+     text-align: center;
+     
+}
+.press-logo{
+     width: 15%;
+     margin: 20px;
+}
+
+.carousel-item{
+     padding: 7% 15%;
+}
+
+#pricing{
+     
+     padding: 7%;
+
+}
+
+#cta{
+     background-color:#ff4c68;
+     padding: 30px;
+     align-items: center;
+     text-align: center;
+     
+}
+
+#cta h3{
+     color: white;
+     font-weight: bold;
+     font-size: 25px;
+}
+
+#footer{
+     padding: 7% 15%;
+     align-items: center;
+     text-align: center;
+     background-color: white;
+     color: rgb(199, 201, 202);
+}
+
+@media only screen and (max-width: 995px) {
+
+     #forimg img{
+          padding-top: 0px;
+          height: 300px;
+          width: 150px;
+          transform: rotate(0);
+          align-items: center;
+          text-align: center;
+          position: static;
+          float: right;
+          
+     }
+
+     h3{
+          font-size: 18px;
+     }
+
+     #pricing h2{
+          font-size: 18px;
+          font-weight: bold;
+     }
+     
+   }
